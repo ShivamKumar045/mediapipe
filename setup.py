@@ -213,8 +213,7 @@ class BuildModules(build_ext.build_ext):
   def run(self):
     _check_bazel()
     external_files = [
-        'face_detection/face_detection_full_range_sparse.tflite',
-        'face_detection/face_detection_short_range.tflite',
+        
         'face_landmark/face_landmark.tflite',
         'face_landmark/face_landmark_with_attention.tflite',
         'hand_landmark/hand_landmark_full.tflite',
